@@ -1,26 +1,21 @@
 <div class = "row">
     <div class= "col-12">
-        <h2 class="text-center">Welcome to the Tech Blog</h2>
-        <p class="text-center">The Tech Blog is a place where you can interact and discuss with others about technology. You can read posts from other users and create your very own!.</p>
+        <h2 class="text-center">Welcome to the Tech Blog! 🖥️</h2>
+        <p class="text-center">The Tech Blog offers an interactive space for engaging with fellow technology enthusiasts, where you can both explore posts from other users and contribute your own content.</p>
     </div>
 </div>
-<div class="container blogBox">
-    <div class="row header">
-    <div class="col-8">
-        <h2 class="text-center">Recent Posts</h2>
-    </div>
-</div>
+
 <div class="col-md-6">
     <h3>Create a New Blog:</h3>
 
     <form class="form new-blog-form">
       <div class="form-group">
-        <label for="blog-name">blog title:</label>
+        <labelb for="blog-name">blog title:</labelb>
         <input class="form-input" type="text" id="blog-name" name="blog-name" />
       </div>
      
       <div class="form-group">
-        <label for="blog-desc">description:</label>
+        <labeld for="blog-desc">description:</labeld>
         <textarea class="form-input" id="blog-desc" name="blog-desc"></textarea>
       </div>
       <div class="form-group">
@@ -28,8 +23,16 @@
       </div>
     </form>
   </div>
+  <div class="container blogBox">
+    <div class="row header">
+    <div class="col-8" >
+
+     <h2 class="text-recent-center">Recent Posts: ✍🏻</h2>
+    </div>
+</div>
+<div class="col-md-6">
 <div class="row">
-    <div class="col-8">
+    <div class="col-8 blog-list">
         {{#each blogs}}
             <div class="card">
                 <div class="card-body">
@@ -38,8 +41,8 @@
                     <p class="card-text">{{format_date date_created}}</p>
                     <p class="card-text">{{user.username}}</p>
                   
-                     <button class="btn btn-primary" id="edit">Edit</button>
-                <button class="btn btn-danger" id="delete">Delete</button>
+                  <a href="/edit/{{id}}"><button class="btn btn-primary" id="edit">Edit</button></a>   
+                <button class="btn btn-danger" data-blog_id={{id}} id="delete">Delete</button>
                 </div>
             </div>
         {{/each}}

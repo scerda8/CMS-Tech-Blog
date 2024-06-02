@@ -8,7 +8,7 @@ router.get("/", async (req, res) => {
       include: [
         {
           model: User,
-          attributes: ["name"],
+          attributes: ["username"],
         },
       ],
     });
@@ -31,7 +31,7 @@ router.get("/blog/:id", async (req, res) => {
       include: [
         {
           model: User,
-          attributes: ["name"],
+          attributes: ["username"],
         },
         {
           model: Comment,
@@ -93,5 +93,16 @@ router.get("/signup", (req, res) => {
   res.render("signup");
 }
 );
-
+router.get("/edit/:id",async(req,res)=>{
+  try {
+    const blogData=await Blog.findByPk(req.params.id)
+    const blog=blogData.get({plain:true})
+    res.render("edit",{
+      ...blog, 
+      logged_in: req.session.logged_in,
+    })
+  } catch (error) {
+    res.status(500).json(error);
+  }
+})
 module.exports = router;
