@@ -1,0 +1,21 @@
+[
+    {
+      "user_id":"1",
+      "username": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "p@ssw0rd123"
+    },
+    {
+      "user_id":"2",
+      "username": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "password": "securePwd!789"
+    },
+    {
+      "user_id":"3",
+      "username": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "password": "saf3Passw0rd"
+    }
+  ]
+  

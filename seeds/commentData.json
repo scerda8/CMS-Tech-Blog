@@ -1,0 +1,18 @@
+[
+  {
+      "blog_id": 1,
+      "comment_description": "This is a great blog post!",
+      "user_id": 3
+  },
+  {
+      "blog_id": 1,
+      "comment_description": "I found this article really helpful.",
+      "user_id": 2
+  },
+  {
+      "blog_id": 1,
+      "comment_description": "Interesting perspective.",
+      "user_id": 1
+  }
+]
+

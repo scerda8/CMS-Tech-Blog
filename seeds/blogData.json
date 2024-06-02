@@ -1,0 +1,17 @@
+[
+    {
+      "user_id":1,
+    "title":"The Rise of Artificial Intelligence in Healthcare",
+    "content":"This blog explores how AI is transforming the healthcare industry, from diagnosis to personalized treatment plans. It discusses the challenges and opportunities presented by AI in healthcare and its potential impact on patient outcomes."
+    },
+    {
+      "user_id":2,
+        "title":"Ultimate Guide to Vegan Cooking: Delicious Plant-Based Recipes",
+        "content": "Whether you're a seasoned vegan or just curious about plant-based cooking, this ultimate guide has something for everyone. From hearty mains to decadent desserts, discover a variety of delicious vegan recipes that are sure to tantalize your taste buds."
+    },
+    {
+      "user_id":3,
+  "title":"The Art of Mindful Living: Cultivating Presence in a Busy World",
+  "content":"Mindful living offers a path to greater peace, happiness, and fulfillment in our daily lives. Join us as we explore the principles of mindfulness and share practical tips for integrating mindfulness practices into your everyday routine."
+}
+]

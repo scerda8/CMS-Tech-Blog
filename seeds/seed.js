@@ -20,9 +20,16 @@ const seedDatabase = async () => {
     });
   }
 
-  const comments = await Comment.bulkCreate(commentData, {
-    returning: true,
+  const blogs=await Comment.bulkCreate(commentData,{
+    individualHooks:true,
+    returning:true,
   });
+  for(const comment of commentData){
+    await Comment.create({
+      ...comment,
+      blog_id: blogs[Math.floor(Math.random()*blogs.length)].id,
+    });
+  }
 
   process.exit(0);
 };
