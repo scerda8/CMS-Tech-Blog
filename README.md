@@ -146,3 +146,13 @@ Link to deployment:https://cms-tech-blog.onrender.com/
 
 
 Link to github repo:https://github.com/scerda8/CMS-Tech-Blog.git
+
+
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
