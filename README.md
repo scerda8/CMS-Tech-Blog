@@ -149,10 +149,7 @@ Link to github repo:https://github.com/scerda8/CMS-Tech-Blog.git
 
 
 
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-![alt text](image-2.png)
-
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/fa35a5dc-0d09-49e2-9a5f-e12d567e9f15)
+![image](https://github.com/user-attachments/assets/abea760e-b25a-4d2f-80f5-6c81e83df578)
+![image](https://github.com/user-attachments/assets/aa7e8ff9-ae1b-444e-82b2-abf2285e50ce)
+![image](https://github.com/user-attachments/assets/c2ca40ae-19dd-451b-8f96-0074a6017e62)
