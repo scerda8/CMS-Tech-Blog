@@ -23,15 +23,16 @@ li, .nav-item{
     body {
         background : #e5a2a2;
     }
-    .h3,textarea{
+    /* .h3,textarea{
         display: flex;
-    }
+    } */
     .label{
         display:flex;
     }
     .h3, h3 {
         display: contents;
         display: flex;
+        justify-content: center;
     }
     labeld{
         display: flex;
